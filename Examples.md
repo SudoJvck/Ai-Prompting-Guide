@@ -36,3 +36,35 @@ El clima es hermoso hoy.
 **Prompt**: "Analyze the sentiment of this text: 'I love the new features in this app, but it crashes too often.'"
 **Response**: 
 The sentiment of the text is mixed. The user expresses positive feelings about the new features but also mentions a negative experience with frequent crashes.
+
+
+## Code Generation
+### Example 6: Writing a Python Function
+**Prompt**: "Write a Python function to calculate the factorial of a number and include error handling for negative inputs."
+**Response**:
+```python
+def factorial(n):
+    """
+    Calculate the factorial of a number.
+
+    Parameters:
+    n (int): The number to calculate the factorial for.
+
+    Returns:
+    int: The factorial of the number, or -1 if the input is negative.
+    """
+    if n < 0:
+        return -1  # Error handling for negative inputs
+    elif n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+# Example usage
+number = 5
+result = factorial(number)
+if result != -1:
+    print(f"The factorial of {number} is {result}")
+else:
+    print("Error: Factorial is not defined for negative numbers.")
+
