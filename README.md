@@ -64,4 +64,4 @@ We welcome contributions! If you have examples, improvements, or new models to a
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU General Public License - see the LICENSE file for details.
